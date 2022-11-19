@@ -6,6 +6,7 @@ scalaVersion := "3.2.1"
 scalacOptions := Seq(
   "-unchecked",
   "-deprecation",
+  "--explain-types",
   "-encoding", "utf8"
 )
 
