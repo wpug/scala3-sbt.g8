@@ -1,52 +1,9 @@
-# SBT
-project/boot/
-project/plugins/project/
-project/project/
-project/target/
-target/
-
-# Scala-IDE
-.scala_dependencies
-.worksheet
-
-# ENSIME
-.ensime_cache/
-.ensime
-
-# bloop and Metals
-.bloop
-.bsp
-.metals
-project/metals.sbt
-
-# VSCode specific
+.bloop/
+.bsp/
+.metals/
 .vscode/
-
-# scala 3
-.tasty
-
-# eclipse
-build/
-.classpath
-.project
-.settings
-.worksheet
-bin/
-.cache
-
-# intellij idea
-*.log
-*.iml
-*.ipr
-*.iws
-.idea
-
-# mac
+project/project/
+project/metals.sbt
+target/
 .DS_Store
 
-# other?
-.history
-.cache-main
-
-#general
-*.class
