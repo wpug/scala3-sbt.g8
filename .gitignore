@@ -3,7 +3,6 @@ boot/
 lib_managed/
 src_managed/
 project/plugins/project/
-/.idea/
 /project/target/
 /src/main/g8/target/
 /project/project/
@@ -27,10 +26,14 @@ project/boot/
 .ensime
 /src/main/g8/project/target/
 
-.bsp
-
 # VSCode specific
 .vscode/
 
 # Metals specific
 .metals
+.bsp/
+.bloop/
+metals.sbt
+
+# IntelliJ IDEA
+.idea*
