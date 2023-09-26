@@ -1,3 +1,5 @@
-@main def mainProg: Unit = {
+@main
+def mainProg: Unit = {
   println("Hello World!")
 }
+
