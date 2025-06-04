@@ -1,7 +1,7 @@
 name := "$name$"
 version := "0.0.1"
 
-scalaVersion := "3.7.0"
+scalaVersion := "3.7.1"
 
 scalacOptions ++= Seq(
    "-deprecation",         // Emit warning and location for usages of deprecated APIs.
