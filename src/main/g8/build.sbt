@@ -9,7 +9,7 @@ Compile / scalacOptions ++= Seq(
    "-feature",             // Emit warning and location for usages of features that should be imported explicitly.
    "-unchecked",           // Enable additional warnings where generated code depends on assumptions
    "-Werror",
-   "-source:3.8",
+   "-source:3.9",
    "-encoding", "utf8",
    "-Wconf:cat=other-match-analysis:error"
 )
